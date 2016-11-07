@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://cv.heeroluo.net/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>张宝利个人简历 - web前端开发工程师</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+	<style type="text/css" media="not print">
+		body {
+			margin: 0;
+			background: #fff;
+			color: #333;
+			font-family: 'Lantinghei SC', 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 16px;
+			-webkit-font-smoothing: antialiased;
+			-webkit-text-size-adjust: none;
+			-webkit-print-color-adjust: exact;
+		}
+		h1, h2, h3, h4, h5, h6, p, ul, ol { margin: 0; padding: 0; }
+		h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: inherit; }
+		ul, ol { list-style-type: none; }
+		p, ul, ol {
+			text-align: justify;
+			text-justify: inter-ideograph;
+			line-height: 1.7;
+		}
+		img { border: none; vertical-align: top; }
+		a, a:visited { text-decoration: none; color: #08c; }
+		a:hover { text-decoration: underline; }
+
+
+		/* 清浮动 */
+		.clear { clear: both; height: 0; overflow: hidden; }
+		.clearfix:after {
+			display: block;
+			overflow: hidden;
+			clear: both;
+			height: 0;
+			visibility: hidden;
+			content: '.';
+		}
+
+		/* 内容边界 */
+		@media (max-width: 749px) {
+			.boundary { margin: 0 20px; clear: both; }
+		}
+		@media (min-width: 750px) {
+			.boundary { max-width: 980px; margin: 0 auto; clear: both; }
+		}
+		@media (min-width: 750px) and (max-width: 1040px) {
+			.boundary { max-width: auto; margin: 0 30px; }
+		}
+
+		/* 通用列表样式 */
+		.list > li { list-style: disc; margin-left: 1.3em; }
+
+		/* 通用列按钮样式 */
+		.button {
+			background: #1d9bd9;
+			background: -webkit-linear-gradient(#3baee7, #08c);
+			background: linear-gradient(#3baee7, #08c);
+			color: #f6f6f6;
+			border-radius: 0.4em;
+			padding: 0 0.5em;
+		}
+		a.button { display: inline-block; }
+		.button:visited { color: #f6f6f6; }
+		.button:hover {
+			color: #fff;
+			background: #2fa2dc;
+			background: -webkit-linear-gradient(#4ab4e8, #1491d0);
+			background: linear-gradient(#4ab4e8, #1491d0);
+			text-decoration: none;
+		}
+
+		/* 控制某些内容在打印时的显示隐藏 */
+		.only-for-print { display: none; }
+		.not-for-print { display: block; }
+
+
+		/* 页头 */
+		.header { border-bottom: 1px solid #d6d6d6; line-height: 1; padding: 15px 0; }
+		.header__logo__fullname { font-size: 2em; font-family: 'PingHei', 'STHeiti SC', 'SimHei'; }
+		.header__logo__jobtitle { color: #888; }
+		.header__address { font-style: normal; line-height: 21px; font-size: 0.875em; }
+		.header__address__item {
+			padding-left: 24px;
+			background: url(http://7xng3e.com1.z0.glb.clouddn.com/icon-sprite.png) no-repeat;
+			background-size: 20px auto;
+			margin-top: 8px;
+			height: 20px;
+			line-height: 20px;
+		}
+		.header__address__item-phone { background-position: 0 0; }
+		.header__address__item-qq { background-position: 0 -28px; }
+		.header__address__item-email { background-position: left bottom; }
+		.header__address__item-blog { padding-left: 0; background: none; }
+		.header__address .button { font-size: 0.86em; }
+
+		@media (max-width: 319px) {
+			.header__logo { margin-bottom: 12px; line-height: 1.3; }
+			.header__logo__jobtitle { display: block; }
+		}
+
+		@media (min-width: 320px) {
+			.header__logo { line-height: 40px; height: 40px; }
+			.header__logo__jobtitle { padding-left: 10px; }
+		}
+
+		@media (min-width: 480px) {
+			.header__address__item { float: left; margin-right: 22px; }
+			.header__address__item-blog { float: right; margin-right: 0; }
+		}
+
+		@media (min-width: 750px) {
+			.header {
+				width: 100%;
+				height: 40px;
+				position: fixed;
+				z-index: 99999;
+				overflow: hidden;
+				background: rgba(255, 255, 255, 0.95);
+			}
+			.header .boundary { position: relative; }
+			.header__logo { position: relative; float: left; }
+			.header__logo__fullname { font-size: 2.5em; }
+			.header__logo__jobtitle {
+				position: absolute;
+				left: 100%;
+				bottom: 0;
+				line-height: 20px;
+				white-space: nowrap;
+			}
+			.header__address { position: absolute; right: 0;  bottom: 0; }
+			.header__address__item { margin-left: 28px; margin-right: 0; }
+
+			/* 空出页头位置 */
+			.main { padding-top: 71px; }
+		}
+
+
+		/* 章节 */
+		.section:nth-child(even) { background: #fafafa; }
+		.section__header { text-shadow: 1px 1px 0 #fff; line-height: 1.4; }
+		.section__header__title, .section__header__subtitle {
+			font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+			text-align: center;
+		}
+		.section__header__subtitle { color: #999; }
+
+		@media (max-width: 749px) {
+			.section .boundary { padding: 25px 0; }
+			.section__header { margin-bottom: 20px; }
+			.section__header__title { font-size: 1.425em; }
+			.section__header__subtitle { font-size: 1.25em; }
+		}
+
+		@media (min-width: 750px) {
+			.section .boundary { padding: 35px 0; }
+			.section__header { margin-bottom: 30px; }
+			.section__header__title { font-size: 1.45em; }
+			.section__header__subtitle { font-size: 2.125em; }
+		}
+
+
+		/* 技术技能章节 */
+		.tech-skill-list__item {
+			position: relative;
+			-webkit-animation-duration: 1.5s;
+			animation-duration: 1.5s;
+		}
+		.tech-skill-list__item-javascript{
+			-webkit-animation-name: bar-javascript;
+			animation-name: bar-javascript;
+		}
+		@-webkit-keyframes bar-javascript {
+			0% { width: 0; }
+			100% { width: 100%; }
+		}
+		@keyframes bar-javascript {
+			0% { width: 0; }
+			100% { width: 100%; }
+		}
+		.tech-skill-list__item-html-and-css {
+			width: 90%;
+			-webkit-animation-name: bar-html-and-css;
+			animation-name: bar-html-and-css;
+		}
+		@-webkit-keyframes bar-html-and-css {
+			0% { width: 0; }
+			100% { width: 90%; }
+		}
+		@keyframes bar-html-and-css {
+			0% { width: 0; }
+			100% { width: 90%; }
+		}
+		.tech-skill-list__item-nodejs {
+			width: 75%;
+			-webkit-animation-name: bar-nodejs;
+			animation-name: bar-nodejs;
+		}
+		@-webkit-keyframes bar-nodejs {
+			0% { width: 0; }
+			100% { width: 75%; }
+		}
+		@keyframes bar-nodejs {
+			0% { width: 0; }
+			100% { width: 75%; }
+		}
+		.tech-skill-list__item-aspdotnet {
+			width: 60%;
+			-webkit-animation-name: bar-aspdotnet;
+			animation-name: bar-aspdotnet;
+		}
+		@-webkit-keyframes bar-aspdotnet {
+			0% { width: 0; }
+			100% { width: 60%; }
+		}
+		@keyframes bar-aspdotnet {
+			0% { width: 0; }
+			100% { width: 60%; }
+		}
+		.tech-skill-list__item-sql {
+			width: 55%;
+			-webkit-animation-name: bar-sql;
+			animation-name: bar-sql;
+		}
+		@-webkit-keyframes bar-sql {
+			0% { width: 0; }
+			100% { width: 55%; }
+		}
+		@keyframes bar-sql {
+			0% { width: 0; }
+			100% { width: 55%; }
+		}
+		.tech-skill-list__item-photoshop {
+			width: 50%;
+			-webkit-animation-name: bar-photoshop;
+			animation-name: bar-photoshop;
+		}
+		@-webkit-keyframes bar-photoshop {
+			0% { width: 0; }
+			100% { width: 50%; }
+		}
+		@keyframes bar-photoshop {
+			0% { width: 0; }
+			100% { width: 50%; }
+		}
+		.tech-skill-list__item__name {
+			height: 40px;
+			line-height: 40px;
+			padding-left: 10px;
+			overflow: hidden;
+			border-left: 3px solid;
+			color: #ff742a;
+			background-color: #fff6dd;
+			border-color: #fdbc40;
+			display: inline-block;
+			min-width: 77px;
+		}
+		.tech-skill-list__item--practised .tech-skill-list__item__name {
+			color: #6e9c0f;
+			background-color: #eaf6d0;
+			border-color: #80bd01;
+		}
+		.tech-skill-list__item--mastered .tech-skill-list__item__name {
+			color: #2a7da9;
+			background-color: #d6efff;
+			border-color: #3498db;
+		}
+		.tech-skill-list__item__detail {
+			max-width: 740px;
+			padding: 10px;
+			background: rgba(255, 255, 255, 0.8);
+			box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+			border-radius: 4px;
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 20px;
+		}
+
+		@media (max-width: 749px) {
+			.tech-skill-list__item { margin-bottom: 15px; }
+		}
+
+		@media (min-width: 750px) {
+			.tech-skill-list__item { margin-bottom: 20px; }
+			.fade { -webkit-animation: fadeIn 0.8s; animation: fadeIn 0.8s; }
+			@-webkit-keyframes fadeIn {
+				0% { display: none; opacity: 0; }
+				1% { display: block; opacity: 0; }
+				100% { display: block; opacity: 1; }
+			}
+			@keyframes fadeIn {
+				0% { display: none; opacity: 0; }
+				1% { display: block; opacity: 0; }
+				100% { display: block; opacity: 1; }
+			}
+		}
+
+
+		/* 教育经历 */
+		@media (max-width: 959px) {
+			.edu { margin-top: 25px; padding-bottom: 15px; border-bottom: 2px dashed #ccc; }
+			.edu-university { border-bottom: none; padding-bottom: 0; }
+			.edu__logo {
+				width: 110px;
+				max-width: 150px;
+				min-width: 120px;
+				margin: 0 0 10px 20px;
+				float: right;
+				height: 110px;
+				border: 1px solid lightgray;
+				border-radius: 10%;
+			}
+		}
+
+		@media (min-width: 960px) {
+			.edu { float: left; box-sizing: border-box; }
+			.edu-seniorschool { padding-right: 4%; }
+			.edu-university { padding-left: 4%; border-left: 2px dashed #ccc; }
+			.edu-seniorschool .edu__body { padding-right: 180px; }
+			.edu-university .edu__body { padding-left: 180px; }
+			.edu__logo { width: 110px; height: 110px;
+				border: 1px solid lightgray;
+				border-radius: 10%;}
+			.edu-seniorschool .edu__logo { float: right; margin-right: -180px; }
+			.edu-university .edu__logo { float: left; margin-left: -180px; }
+		}
+
+
+		/* 工作经验章节 */
+		.work-exp-list { border-left: 4px solid #ccc; padding: 1px 0; margin-left: 8px; }
+		.work-exp-list__point {
+			position: relative;
+			padding-left: 15px;
+			margin: 15px 0;
+			height: 26px;
+			line-height: 26px;
+		}
+		.work-exp-list__point__ico {
+			width: 18px;
+			height: 18px;
+			border: 3px solid #fff;
+			border-radius: 12px;
+			background: #3498db;
+			position: absolute;
+			left: -14px;
+			top: 0;
+		}
+		.work-exp-list__company { margin-left: 20px; }
+		.work-exp-list__company__header { line-height: 1; }
+		.work-exp-list__company__header__logo { width: 100px; display: block; }
+		.work-exp-list__company__header__logo img { width: 100%; }
+		.work-exp-list__company__header__title { font-size: 1.2em; font-weight: bold; }
+		.work-exp-list__company__header__jobtitle { color: #888; }
+		.work-exp-list__company__body { margin-top: 4px; }
+
+		@media (max-width: 639px) {
+			.work-exp-list__company__logo { display: block; margin-bottom: 8px; }
+			.work-exp-list__company__header__title { margin-top: 10px; color: blue; }
+			.work-exp-list__company__header__jobtitle { margin-top: 2px; }
+		}
+
+		@media (min-width: 640px) {
+			.work-exp-list__company { margin-top: 30px; margin-bottom: 30px; }
+			.work-exp-list__company__header { position: relative; padding-left: 115px; }
+			.work-exp-list__company__header__logo { position: absolute; left: 0; top: 0; }
+			.work-exp-list__company__header__title,
+			.work-exp-list__company__header__jobtitle { display: inline-block; }
+			.work-exp-list__company__header__jobtitle:before {
+				content: '\2014\2014';
+				padding-right: 4px;
+			}
+			.work-exp-list__company__body { padding-left: 115px; }
+		}
+
+
+		/* 项目经验章节 */
+		.project { border-bottom: 2px dashed #ccc;
+			position: relative;
+		}
+		.skill {
+			margin-left: 100px;
+			width:900px;
+		}
+
+		.skill li{
+			float: left;
+			width: 40px;
+			height:40px;
+			margin-left: 20px;
+			border: 1px solid lightgray;
+			border-radius: 10%;
+		}
+		.skill li img{
+			width:100%;
+			height:100%;
+			border: 1px solid lightgray;
+			border-radius: 10%;
+		}
+		.project:last-child { border-bottom: none; margin-bottom: 0; }
+		.project__intro__header { margin-bottom: 6px; position: relative; }
+		.project__intro__header__title { font-size: 1.2em; font-weight: bold; }
+		.tech-tag-list__item {
+			padding: 2px 5px;
+			border-radius: 3px;
+			display: inline-block;
+			vertical-align: middle;
+			color: #fff;
+			font-size: 0.75em;
+			font-family: 'Lucida Grande', arial;
+		}
+		.tech-tag-list__item-javascript { background: #f0db4f; color: #333 !important; }
+		.tech-tag-list__item-nodejs { background: #80bd01; }
+		.tech-tag-list__item-html { background: #f60; }
+		.tech-tag-list__item-css { background: #f90; }
+		.tech-tag-list__item-aspdotnet { background: #68217a; }
+		.tech-tag-list__item-sqlite { background: #003b57; }
+		.tech-tag-list__item-mysql { background: #015a84; }
+		.project__intro__header__period {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			color: #888;
+		}
+		.project__intro__links { margin-top: 10px; text-align: right; word-spacing: 1em; }
+		.project__thumb img { width: 100%; box-shadow: 0 0 2px rgba(0, 0, 0, 0.15); }
+
+		@media (max-width: 749px) {
+			.project { margin-bottom: 26px; padding-bottom: 16px; }
+			.project__thumb { width: 90%; margin: 12px auto 0 auto; }
+			.project__intro__header__title { padding-bottom: 3px; }
+		}
+
+		@media (min-width: 750px) {
+			.project { margin-bottom: 36px; padding: 0 0 20px 10px;
+				position: relative;
+			}
+
+			.project__intro { width: 100%; float: left;
+
+			}
+			.mobile{
+				position: absolute;
+				bottom: 10px;
+				left: 460px;
+				width: 100px;
+				height: 100px;
+			}
+			.mobile img{
+				width:100%;
+				height:100%;
+			}
+			.project__intro__header { margin-top: -2px; }
+			.project__intro__header__title { padding-bottom: 3px; }
+
+			.project__thumb { float: right; }
+			.project--nothumb { padding-right: 10px !important; }
+		}
+
+		@media (min-width: 750px) and (max-width: 959px) {
+			.project { padding-right: 290px; }
+			.project__thumb { width: 250px; margin-right: -280px; }
+			.mobile{
+				position: absolute;
+				bottom: 10px;
+				left: 460px;
+				width: 100px;
+				height: 100px;
+			}
+			.mobile img{
+				width:100%;
+				height:100%;
+			}
+		}
+
+		@media (min-width: 960px) {
+			.project { padding-right: 380px; }
+			.project__thumb { width: 320px; margin-right: -370px; }
+			.mobile{
+				position: absolute;
+				bottom: 10px;
+				left: 460px;
+				width: 100px;
+				height: 100px;
+			}
+			.mobile img{
+				width:100%;
+				height:100%;
+			}
+		}
+
+
+		/* 页脚 */
+		.footer { border-top: 1px solid #e8e8e8; color: #888; font-size: 0.875em; }
+		.footer .boundary { padding: 15px 0; }
+		.footer__qrcode__img { width: 60px; height: 60px; float: left; }
+		.footer__qrcode__text { margin: 7px 0 0 10px; float: left; }
+		.footer__copyright p { text-align: left; }
+		.footer__copyright__comment { font-size: 0.86em; }
+
+		@media (max-width: 749px) {
+			.footer__copyright { margin-top: 8px; }
+		}
+
+		@media (min-width: 750px) {
+			.footer__qrcode { float: left; }
+			.footer__copyright { margin-top: 7px; float: right; }
+			.footer__copyright p { text-align: right; }
+		}
+	</style>
+	<style type="text/css" media="print">
+		@page {
+			size: A4 portrait;
+			margin: 2.1cm 1.9cm;
+		}
+
+
+		body {
+			margin: 0;
+			background: #fff;
+			color: #000;
+			font-family: 'Lantinghei SC', 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 12px;
+			-webkit-font-smoothing: antialiased;
+			-webkit-text-size-adjust: none;
+			-webkit-print-color-adjust: exact;
+		}
+		h1, h2, h3, h4, h5, h6, p, ul, ol { margin: 0; padding: 0; }
+		h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: inherit; }
+		ul, ol { list-style-type: none; }
+		p, ul, ol {
+			text-align: justify;
+			text-justify: inter-ideograph;
+			line-height: 1.7;
+		}
+		img { border: none; vertical-align: top; }
+		a, a:visited { text-decoration: none; color: #000; }
+		a:hover { text-decoration: underline; }
+
+
+		/* 清浮动 */
+		.clear { clear: both; height: 0; overflow: hidden; }
+		.clearfix:after {
+			display: block;
+			overflow: hidden;
+			clear: both;
+			height: 0;
+			visibility: hidden;
+			content: '.';
+		}
+
+		/* 内容边界 */
+		.boundary { margin: 0 10px; clear: both; }
+
+		/* 通用列表样式 */
+		.list > li { list-style: disc; margin-left: 1.3em; }
+
+		/* 控制某些内容在打印时的显示隐藏 */
+		.only-for-print { display: block; }
+		.not-for-print { display: none; }
+
+
+		/* 页头 */
+		.header { border-bottom: 1px solid #d6d6d6; line-height: 1; padding-bottom: 15px; }
+		.header__logo { line-height: 40px; height: 40px; }
+		.header__logo__fullname { font-size: 2.8em; font-family: 'PingHei', 'STHeiti SC', 'SimHei'; }
+		.header__logo__jobtitle { font-size: 1.5em; color: #888; padding-left: 10px; }
+		.header__address { font-style: normal; line-height: 21px; font-size: 0.875em; }
+		.header__address__item {
+			padding-left: 24px;
+			background: url(http://7xng3e.com1.z0.glb.clouddn.com/icon-sprite.png) no-repeat;
+			background-size: 20px auto;
+			margin-top: 8px;
+			height: 20px;
+			line-height: 20px;
+			float: left; margin-right: 22px;
+		}
+		.header__address__item:last-child { margin-right: 0; }
+		.header__address__item-phone { background-position: 0 0; }
+		.header__address__item-qq { background-position: 0 -28px; }
+		.header__address__item-email { background-position: left bottom; }
+		.header__address__item-blog { background: none; padding-left: 0; float: right; }
+		.header__address__item-blog a { font-size: 0.86em; }
+		.header__address__item-blog a:after { content: '「' attr(href) '」'; }
+
+
+		/* 章节 */
+		.section .boundary { padding: 20px 0; }
+		.section__header { text-shadow: 1px 1px 0 #fff; line-height: 1.4; margin-bottom: 20px; }
+		.section__header__title, .section__header__subtitle {
+			display: inline-block;
+			font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+			text-align: center;
+		}
+		.section__header__title { font-size: 1.45em; }
+		.section__header__subtitle { margin-left: 0.4em; font-size: 1.6em; color: #999; }
+
+
+		/* 技术技能章节 */
+		.tech-skill-list__item { position: relative; margin-bottom: 15px; }
+		.tech-skill-list__item-html-and-css { width: 90%; }
+		.tech-skill-list__item-nodejs { width: 75%; }
+		.tech-skill-list__item-aspdotnet { width: 60%; }
+		.tech-skill-list__item-sql { width: 55%; }
+		.tech-skill-list__item-photoshop { width: 50%; }
+		.tech-skill-list__item__name {
+			height: 40px;
+			line-height: 40px;
+			padding-left: 10px;
+			overflow: hidden;
+			border-left: 3px solid;
+			color: #ff742a;
+			background-color: #fff6dd;
+			border-color: #fdbc40;
+			display: inline-block;
+			min-width: 77px;
+		}
+		.tech-skill-list__item--practised .tech-skill-list__item__name {
+			color: #6e9c0f;
+			background-color: #eaf6d0;
+			border-color: #80bd01;
+		}
+		.tech-skill-list__item--mastered .tech-skill-list__item__name {
+			color: #2a7da9;
+			background-color: #d6efff;
+			border-color: #3498db;
+		}
+		.tech-skill-list__item__detail {
+			width: 450px;
+			padding: 10px;
+			background-color: #fff;
+			box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+			border-radius: 4px;
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 20px;
+		}
+
+
+		/* 教育经历 */
+		@media (max-width: 959px) {
+			.edu { margin-top: 20px; padding-bottom: 10px; border-bottom: 2px dashed #ccc; }
+			.edu-university { border-bottom: none; padding-bottom: 0; }
+			.edu__logo { width: 110px; margin-left: 20px; float: right;
+				height: 110px;
+				border: 1px solid lightgray;
+				border-radius: 10%;
+			}
+		}
+
+
+		/* 工作经验章节 */
+		.work-exp-list { border-left: 4px solid #ccc; padding: 1px 0; margin-left: 8px; }
+		.work-exp-list__point {
+			position: relative;
+			padding-left: 15px;
+			margin: 15px 0;
+			height: 26px;
+			line-height: 26px;
+		}
+		.work-exp-list__point__ico {
+			width: 18px;
+			height: 18px;
+			border: 3px solid #fff;
+			border-radius: 12px;
+			background: #3498db;
+			position: absolute;
+			left: -14px;
+			top: 0;
+		}
+		.work-exp-list__company { margin: 15px 0 15px 20px; }
+		.work-exp-list__company__header { position: relative; padding-left: 115px; line-height: 1; }
+		.work-exp-list__company__header__logo {
+			width: 100px;
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.work-exp-list__company__header__logo img { width: 100%; }
+		.work-exp-list__company__header__title,
+		.work-exp-list__company__header__jobtitle { display: inline-block; }
+		.work-exp-list__company__header__title { font-size: 1.2em; font-weight: bold; }
+		.work-exp-list__company__header__jobtitle { color: #888; }
+		.work-exp-list__company__header__jobtitle:before {
+			content: '\2014\2014';
+			padding-right: 4px;
+		}
+		.work-exp-list__company__body { margin-top: 3px; padding-left: 115px; }
+
+
+		/* 项目经验章节 */
+		.project { margin-bottom: 25px; padding: 0 5px 15px 5px; border-bottom: 2px dashed #ccc;
+			position: relative;
+		}
+		.mobile{
+			position: absolute;
+			bottom: 10px;
+			left: 460px;
+			width: 100px;
+			height: 100px;
+		}
+		.mobile img{
+			width:100%;
+			height:100%;
+		}
+
+		.skill {
+			margin-left: -10px;
+			width:900px;
+		}
+
+		.skill li{
+			float: left;
+			width: 30px;
+			height:30px;
+			margin-left: 15px;
+			border: 1px solid lightgray;
+			border-radius: 10%;
+		}
+		.skill li img{
+			width:100%;
+			height:100%;
+			border: 1px solid lightgray;
+			border-radius: 10%;
+		}
+		.project:last-child { border-bottom: none; margin-bottom: 0; }
+		.project__intro__header { margin-bottom: 6px; }
+		.project__intro__header__title, .project__intro__header__period { float: left; }
+		.project__intro__header__title { font-size: 1.2em; font-weight: bold; }
+		.tech-tag-list { float: right; }
+		.tech-tag-list__item {
+			padding: 2px 5px;
+			border-radius: 3px;
+			display: inline-block;
+			vertical-align: middle;
+			color: #fff;
+			font-size: 0.75em;
+			font-family: 'Lucida Grande', arial;
+		}
+		.tech-tag-list__item-javascript { background: #f0db4f; color: #333 !important; }
+		.tech-tag-list__item-nodejs { background: #80bd01; }
+		.tech-tag-list__item-html { background: #f60; }
+		.tech-tag-list__item-css { background: #f90; }
+		.tech-tag-list__item-aspdotnet { background: #68217a; }
+		.tech-tag-list__item-sqlite { background: #003b57; }
+		.tech-tag-list__item-mysql { background: #015a84; }
+		.project__intro__header__period { margin-left: 4px; font-size: 0.75em; color: #888; }
+		.project__intro__header__period:before { content: '（'; }
+		.project__intro__header__period:after { content: '）'; }
+		.project__intro__links { margin-top: 8px; text-align: right; word-spacing: 1em; }
+		.project__intro__links a:after { content: '「' attr(href) '」'; }
+		.project__thumb { display: none; }
+
+
+		/* 页脚 */
+		.footer { border-top: 1px solid #e8e8e8; color: #888; font-size: 0.875em; }
+		.footer .boundary { padding-top: 15px; }
+		.footer__qrcode { float: left; }
+		.footer__qrcode__img { width: 60px; height: 60px; float: left; }
+		.footer__qrcode__text { margin: 7px 0 0 10px; float: left; }
+		.footer__copyright { margin-top: 7px; float: right; text-align: right;  }
+		.footer__copyright p { text-align: left; }
+		.footer__copyright__comment { font-size: 0.86em; }
+	</style>
+</head>
+
+<body>
+<!--[if lt IE 9]>
+<script>
+!function(body) {
+body.style.width = body.style.height = '100%';
+body.parentNode.style.overflow = body.style.overflow = 'hidden';
+}(document.body);
+</script>
+<iframe src="4oie.html" frameborder="0" scrolling="no" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 99999;"></iframe>
+<![endif]-->
+<header class="header">
+	<div class="boundary clearfix">
+		<h1 class="header__logo">
+			<span class="header__logo__fullname">张宝利</span><span class="header__logo__jobtitle">web前端开发</span>
+		</h1>
+		<address class="header__address">
+			<ul>
+				<li id="header__address__item-phone" class="header__address__item header__address__item-phone">(+86)17600803294</li>
+				<li class="header__address__item header__address__item-qq">591793792@qq.com</li>
+				<li class="header__address__item header__address__item-email">17600803294@163.com</li>
+			</ul>
+		</address>
+	</div>
+</header>
+
+<div class="main">
+	<section class="section">
+		<div class="boundary">
+			<header class="section__header">
+				<h5 class="section__header__title">对Web充满热情</h5>
+			</header>
+			<div class="section-body">
+				<ul class="tech-skill-list">
+					<li class="tech-skill-list__item tech-skill-list__item--mastered">
+						<h4 class="tech-skill-list__item__name">前端技能</h4>
+						<div class="tech-skill-list__item__detail">
+							<ul class="list">
+								<li>掌握原生javascript、原生DOM操作，对设计模式、JS面向对象、模块化编程有一定了解。 </li>
+								<li>能写出兼容主流浏览器的代码。</li>
+								<li>可以使用photoshop对设计师提供的UI进行还原。</li>
+								<li>能够熟练操作Mac系统</li>
+							</ul>
+						</div>
+					</li>
+					<li class="tech-skill-list__item tech-skill-list__item--mastered">
+						<h4 class="tech-skill-list__item__name">H5+CSS3</h4>
+						<div class="tech-skill-list__item__detail">
+							<ul class="list">
+								<li>熟练H5开发,响应式，rem布局</li>
+								<li>熟练运用zepto,iScroll,swiper，animate等类库及插件</li>
+							</ul>
+						</div>
+					</li>
+					<li class="tech-skill-list__item tech-skill-list__item--practised">
+						<h4 class="tech-skill-list__item__name">后端技能</h4>
+						<div class="tech-skill-list__item__detail">
+							<ul class="list">
+								<li>了解后台的express,mongdb,nodejs,能独立写出服务器，接口，客服管理系统中简单功能等 </li>
+								<li>对http协议有一定了解。</li>
+							</ul>
+						</div>
+					</li>
+					<li class="tech-skill-list__item tech-skill-list__item--mastered">
+						<h4 class="tech-skill-list__item__name">相关类库</h4>
+						<div class="tech-skill-list__item__detail">
+							<ul class="list">
+								<li>掌握jquery库，对其实现原理有一定程度的了解。 </li>
+								<li>能够使用bootstrap库,编写灵活、稳定、高质量的HTML和CSS代码。 </li>
+								<li>能够使用less预处理语言来提高工作效率。 </li>
+								<li>了解ES6和能够使用主流框架Angularjs,Reactjs框架进行单页面开发 </li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="boundary">
+			<header class="section__header">
+				<h3 class="section__header__subtitle">个人简介</h3>
+			</header>
+			<div class="section-body clearfix">
+				<div class="edu edu-university">
+					<div class="edu__body clearfix">
+						<img class="edu__logo" src="m.jpg" alt="">
+						<p>2010年8月至2014年7月在 陕西国际商贸学院 读 本科 财务管理专业，通过<strong>英语四级</strong>考试。
+						</p>
+						<p>本人 <strong>性格开朗</strong>,为人热情,可以很快适应新环境。 </p>
+						<p>具备良好的合作 <strong>态度</strong>和团队协作精神。 </p>
+						<p>有<strong>自我驱动的能力</strong>,能够严格要求自己。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section">
+		<div class="boundary" style=" margin-top:100px">
+			<header class="section__header">
+				<h3 class="section__header__subtitle">工作经历</h3>
+			</header>
+			<div class="section-body">
+				<div class="work-exp-list">
+					<div class="work-exp-list__point"><i class="work-exp-list__point__ico"></i>2016/至今</div>
+					<section class="work-exp-list__company clearfix">
+						<div class="work-exp-list__company__body">
+							<p>2014年7月至2015年11月在 365翻译 工作。
+							</p>
+							<p>2015年11月至2016年7月在 人人行科技股份有限公司  工作。
+							</p>
+							<p>	•可以百分百还原设计图。
+							</p>
+							<p>
+								•能够进行页面代码重构以及代码优化。
+
+							</p>
+							<p>
+								•可以和后台利用ajax进行交互。
+
+							</p>
+							<p>
+								•辅助后台搭建后台模版，利用模版进行代码的高速渲染。
+
+							</p>
+							<p>
+								•   移动端网页建设，H5场景的编写一些活动推广相关的页面展示。
+							</p>
+							<p>•解决移动端各种适配会出现的问题，提供更完美的方案。</p>
+							<p>	•时刻关注新技术的发展，可以选择需要的框架来高效的完成工作
+							</p>
+						</div>
+					</section>
+					<div class="work-exp-list__point"><i class="work-exp-list__point__ico"></i>2014/7</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="boundary">
+			<header class="section__header">
+				<h3 class="section__header__subtitle">项目</h3>
+			</header>
+			<div class="section-body" style="border-left: 2px dashed #ccc;
+">
+				<section class="project project--nothumb clearfix">
+					<div class="project__intro">
+						<p><strong>页面制作</strong></p>
+						<p>使用bootstrap框架搭建结构,优化css.js代码,使用js原生实现一些交互效果,移动端的响应式布局</p>
+						<p> <strong>第三方支付客户管理平台:</strong></p>
+						<p>负责页面的排版布局，运用JavaScript对部分页面DOM元素进行操作，利用ajax实现异步数据请求，加载到页面，css、JavaScript减少Http请求次数和图片大小，加快网页载入速度，解决各个主流浏览器的兼容性问题，使用webstrom工具开发，chrome浏览器进行调试，用到的前端技术有jQuery、Ajax、json；开发过程中遵从http协议，实现数据交互。 pc 端采用 jquery 框架与 js 共同进行开发，坚持降低程序耦合度、提高代码复用性 ，移动端采用 js 以及一些封装好的轻量级框架共同进行开发，能兼容各个移动设备。</p>
+						<p> <strong>员工内部管理系统:</strong></p>
+						<p>该项目是OA系统，为公司内部人员之间的交流/讨论提供一个平台  主要负责人事管理 （主要实现对公司内部员工及其访问权限的管理） 考勤管理 （主要实现员工的上下班签到、请假、迟到的管理） 运用技术：jquery、JSP、javascript、ajax、mongoodb数据库等</p>
+						<p><strong>工作中做一些常规的工作,由于个人比较喜欢研究一些动画效果</strong></p>
+						<p><strong>3D魔方</strong></p>
+						<p>https://angelia00even.github.io/mof-project/</p>
+						<p><strong>book-pages</strong></p>
+						<p>https://angelia00even.github.io/click-project/</p>
+						<p><strong>星际探索</strong>(扫右侧二维码)</p>
+						<p>https://angelia00even.github.io/future/</p>
+						<div class="mobile">
+							<img src="jl.png" alt="">
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+
+
+</body></html>
